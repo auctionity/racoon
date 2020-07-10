@@ -1,0 +1,12 @@
+Config (
+    validators_count: 5,
+    heights_per_epoch: 1000,
+    stake_spread_factor: 5,
+    block_time: 1_000_000,
+    max_weight_time: 1_000_000,
+    finalization_weight: 3,
+    stop_finalization_height: 10,
+    latency: 500_000,
+    lucky_retry: 250_000,
+    stop_height: 2000,
+)

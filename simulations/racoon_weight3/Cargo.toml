@@ -1,0 +1,26 @@
+[package]
+name = "racoon_weight3"
+version = "0.1.0"
+authors = ["Jérémy PICOT <jeremy.p@auctionity.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# math and crypto
+rug = "1.6.0"
+sha3 = "0.8.2"
+blake3 = "0.2.2"
+
+# logging
+tracing = "0.1.13"
+tracing-subscriber = "0.2.1"
+indicatif = "0.14.0"
+
+# config
+serde = { version = "1.0.104", features = ["derive"] }
+ron = "0.5.1"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1

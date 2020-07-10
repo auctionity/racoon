@@ -1,0 +1,11 @@
+[package]
+name = "racoon_weight"
+version = "0.1.0"
+authors = ["Jérémy PICOT <jeremy.p@auctionity.com>"]
+edition = "2018"
+
+[dependencies]
+sha3 = "0.8.2"
+rug = "1.6.0"
+rayon = "1.2.0"
+indicatif = "0.12.0"

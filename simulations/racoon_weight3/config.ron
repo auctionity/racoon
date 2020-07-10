@@ -1,0 +1,13 @@
+Config (
+    validators_count: 20,
+    stake_spread_factor: 5,
+
+    vdf_block_ticks: 1_000_000,
+    vdf_max_weight_ticks: 500_000,
+    latency_ticks: 1_000_000,
+    vdf_apply_retry_ticks: 200_000,
+
+    finalization_weight: 3,
+    stop_height: 20_000,
+    step_stop: None,
+)
